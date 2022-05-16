@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
-        classifier = new Classifier(Utils.assetFilePath(this,"mobilenetv2_quantized.pt"));
+        classifier = new Classifier(Utils.assetFilePath(this,"model_waste_quantized.pt"));
 
         Button capture = findViewById(R.id.capture);
 
